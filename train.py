@@ -362,7 +362,7 @@ WINDOW_PATTERN = "SSSL"
 
 # v0.1: AdamW only. Muon port is future work.
 TOTAL_BATCH_SIZE = 2**16
-EMBEDDING_LR = 0.6
+EMBEDDING_LR = 0.9908
 UNEMBEDDING_LR = 0.004
 MATRIX_LR = 0.04
 SCALAR_LR = 0.5
@@ -524,3 +524,6 @@ print(f"total_tokens_M:   {total_tokens / 1e6:.1f}")
 print(f"num_steps:        {step}")
 print(f"num_params_M:     {num_params / 1e6:.1f}")
 print(f"depth:            {DEPTH}")
+
+model.save_weights("music_model.safetensors")
+print("weights_saved:    music_model.safetensors")
