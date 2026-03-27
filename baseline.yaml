@@ -1,0 +1,64 @@
+baseline
+val_bpb = 5.761739
+depth = 4
+num_params_M = 3.5
+tokens_M = 32.8
+steps = 500
+peak_vram_mb = 8540.8
+
+
+
+VOCAB_SIZE = 256
+Final eval batch size: 256
+Final eval completed in 5.9s
+---
+val_bpb:          5.507883
+training_seconds: 300.2
+total_seconds:    306.9
+peak_vram_mb:     8540.8
+mfu_percent:      0.00
+total_tokens_M:   32.7
+num_steps:        499
+num_params_M:     3.5
+depth:            4
+
+
+MAX_SEQ_LEN = 128
+---
+val_bpb:          6.034561
+training_seconds: 300.4
+total_seconds:    305.9
+peak_vram_mb:     1639.4
+mfu_percent:      0.00
+total_tokens_M:   39.6
+num_steps:        605
+num_params_M:     3.5
+depth:            4
+
+DEPTH = 3
+Training completed in 300.5s
+Starting final eval...
+Final eval batch size: 256
+Final eval completed in 5.1s
+---
+val_bpb:          6.754095
+training_seconds: 300.2
+total_seconds:    305.9
+peak_vram_mb:     8530.3
+mfu_percent:      0.00
+total_tokens_M:   40.1
+num_steps:        612
+num_params_M:     2.7
+depth:            3
+
+
+DEPTH = 5 *** WIN ** 
+val_bpb:          5.713847
+training_seconds: 300.4
+total_seconds:    311.2
+peak_vram_mb:     12851.4
+mfu_percent:      0.00
+total_tokens_M:   16.5
+num_steps:        252
+num_params_M:     9.5
+depth:            5
